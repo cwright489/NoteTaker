@@ -1,7 +1,7 @@
 const express = require("express");
 const compression = require("compression");
-const apiRoutes = require("./routes/apiRoutes");
-const htmlRoutes = require("./routes/htmlRoutes");
+const apiRoutes = require("./routes/apiRoute");
+const htmlRoutes = require("./routes/htmlRoute");
 
 // Initialize the app and create a port
 const app = express();
